@@ -9,10 +9,10 @@ from starlette.middleware.cors import CORSMiddleware
 from starlette.responses import HTMLResponse, JSONResponse
 from starlette.staticfiles import StaticFiles
 
-export_file_url = 'https://www.dropbox.com/s/6bgq8t6yextloqp/export.pkl?raw=1'
+export_file_url = 'https://drive.google.com/uc?export=download&id=1qvGSdRExOLg4Gt5PGgxTrdcatN41262W'
 export_file_name = 'export.pkl'
 
-classes = ['black', 'grizzly', 'teddys']
+classes = ['Allantoma decandra', 'Allantoma lineata', 'Amburana acreana', 'Amburana cearensis', 'Apuleia leiocarpa', 'Aspidosperma macrocarpon', 'Aspidosperma polyneuron', 'Astronium graveolens', 'Astronium lecointei', 'Astronium urundeuva', 'Bagassa guianensis', 'Balfourodendron riedelianum', 'Bertholletia excelsa', 'Bowdichia nitida', 'Brosimum parinarioides', 'Brosimum rubescens', 'Calophyllum brasiliense', 'Carapa guianensis', 'Cariniana legalis', 'Cariniana micrantha', 'Caryocar glabrum', 'Caryocar villosum', 'Cassia fastuosa', 'Cedrela fissilis', 'Cedrela odorata', 'Cedrelinga cateniformis', 'Ceiba pentandra', 'Centrolobium tomentosum', 'Chrysophyllum lucentifolium subsp. pachycarpum', 'Chrysophyllum spp', 'Clarisia racemosa', 'Copaifera spp', 'Cordia goeldiana', 'Cordia trichotoma', 'Couratari oblongifolia', 'Dalbergia nigra', 'Dinizia excelsa', 'Dipteryx alata', 'Dipteryx magnifica', 'Dipteryx odorata', 'Enterolobium contortisiliquum', 'Enterolobium schomburgkii', 'Erisma uncinatum', 'Eschweilera amara', 'Especie ainda não classificada', 'Eucaliptus grandis', 'Handroanthus impetiginosus', 'Handroanthus incanus', 'Handroanthus serratifolius', 'Hura crepitans', 'Hyeronima alchorneoides', 'Hymenaea parvifolia', 'Hymenolobium excelsum', 'Jacaranda copaia', 'Manilkara bidentata', 'Mezilaurus lindaviana', 'Micropholis melinoniana', 'Ocotea aciphylla', 'Ocotea porosa', 'Ocotea spp', 'Peltogyne paniculata', 'Peltogyne subsessilis', 'Piptadenia suaveolens', 'Plathymenia foliolosa', 'Senegalia polyphylla', 'Sextonia rubra', 'Simarouba amara', 'Sterculia apeibophylla', 'Swietenia macrophylla', 'Terminalia amazonia', 'Terminalia grandis', 'Tetragastris panamensis', 'Vataireopsis speciosa', 'Zanthoxylum rhoifolium']
 path = Path(__file__).parent
 
 app = Starlette()
